@@ -15,13 +15,21 @@ public class RegistryBlocks {
     public static final RegistryObject<Block> KATH_STONE_BLOCK = BLOCKS.register("kath_stone", KathStone::new);
     public static final RegistryObject<Block> KATH_GRASS = BLOCKS.register("kath_grass", KathGrass::new);
     public static final RegistryObject<Block> KATH_DIRT = BLOCKS.register("kath_dirt", KathDirt::new);
+    public static final RegistryObject<Block> KATH_SAND = BLOCKS.register("kath_sand", KathSand::new);
 
     
     //Ores
-    public static final RegistryObject<Block> SPARITE_ORE_BLOCK = BLOCKS.register("sparite_ore", SpariteOre::new);
+    public static final RegistryObject<Block> SPARITE_ORE_BLOCK = BLOCKS.register("sparite_ore", OreSparite::new);
+    public static final RegistryObject<Block> KREVISINE_ORE_BLOCK = BLOCKS.register("krevisine_ore", OreKrevisine::new);
+    public static final RegistryObject<Block> ROJA_ORE_BLOCK = BLOCKS.register("roja_ore", OreRoja::new);
+    public static final RegistryObject<Block> JASPER_ORE_BLOCK = BLOCKS.register("jasper_ore", OreJasper::new);
     
     
     //Deco
+    public static final RegistryObject<Block> SPARITE_BLOCK = BLOCKS.register("sparite_block", SpariteBlock::new);
+    public static final RegistryObject<Block> KREVISINE_BLOCK = BLOCKS.register("krevisine_block", KrevisineBlock::new);
+    public static final RegistryObject<Block> ROJA_BLOCK = BLOCKS.register("roja_block", RojaBlock::new);
+    public static final RegistryObject<Block> JASPER_BLOCK = BLOCKS.register("jasper_block", JasperBlock::new);
     
     
     //Interactable

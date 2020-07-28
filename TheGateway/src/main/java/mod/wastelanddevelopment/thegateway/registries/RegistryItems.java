@@ -2,6 +2,7 @@ package mod.wastelanddevelopment.thegateway.registries;
 
 import mod.wastelanddevelopment.thegateway.TheGateway;
 import mod.wastelanddevelopment.thegateway.blocks.BlockItemMain;
+import mod.wastelanddevelopment.thegateway.items.ItemKevarGem;
 import mod.wastelanddevelopment.thegateway.items.ItemMain;
 import mod.wastelanddevelopment.thegateway.items.ItemTabless;
 import net.minecraft.item.Item;
@@ -15,18 +16,22 @@ public class RegistryItems {
     
     
     //Tools
-    public static final RegistryObject<Item> KEVARGEM = ITEMS.register("kevar_gem", ItemMain::new);
-    
+    public static final RegistryObject<Item> KEVARGEM = ITEMS.register("kevar_gem", ItemKevarGem::new);
+
     
     //Foodstuffs
     
     
     //Ores
     public static final RegistryObject<Item> RAWSPARITE = ITEMS.register("raw_sparite", ItemMain::new);
-    
+    public static final RegistryObject<Item> RAWKREVISINE = ITEMS.register("raw_krevisine", ItemMain::new);
+
     
     //Materials
     public static final RegistryObject<Item> SPARITE = ITEMS.register("sparite", ItemMain::new);
+    public static final RegistryObject<Item> KREVISINE = ITEMS.register("krevisine", ItemMain::new);
+    public static final RegistryObject<Item> ROJA = ITEMS.register("roja", ItemMain::new);
+    public static final RegistryObject<Item> JASPER = ITEMS.register("jasper", ItemMain::new);
     
     
     //Block Items
